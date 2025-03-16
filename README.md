@@ -7,7 +7,9 @@
 
 ## 📌 Descripción del Proyecto:
 
-El proyecto consiste en un minijuego interactivo donde el usuario debe adivinar un número secreto generado de forma aleatoria (entre 1 y 100). Después de cada intento, el juego indica al jugador si su número es demasiado alto o demasiado bajo hasta que logre acertarlo. Además, muestra un historial de los intentos realizados.
+El proyecto consiste en un minijuego interactivo donde el usuario debe adivinar un número secreto generado de forma 
+aleatoria (entre 1 y 100). Después de cada intento, el juego indica al jugador si su número es demasiado alto o 
+demasiado bajo hasta que logre acertarlo. Además, muestra un historial de los intentos realizados.
 
 ---
 
