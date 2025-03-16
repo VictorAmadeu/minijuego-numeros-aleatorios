@@ -21,7 +21,6 @@ El proyecto consiste en un minijuego interactivo donde el usuario debe adivinar 
 ---
 
 ## 📂 Estructura del Proyecto:
-```plaintext
 minijuego-numeros-aleatorios
 ├── index.html
 ├── style.css
