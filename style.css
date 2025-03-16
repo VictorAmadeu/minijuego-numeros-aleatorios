@@ -1,0 +1,24 @@
+/* 1. Estilos generales para el body */
+body {
+  background-color: #f0f8ff; /* color de fondo claro para la página */
+  font-family: Arial, sans-serif; /* fuente para el texto */
+}
+
+/* 2. Ajustes para el contenedor principal */
+.container {
+  max-width: 500px; /* Ancho máximo para que no se extienda demasiado */
+  background-color: #ffffff; /* Fondo blanco en la tarjeta principal */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sutil sombra para efecto de tarjeta */
+}
+
+/* 3. Estilo adicional para el título principal */
+h1 {
+  color: #333333; /* Color de texto */
+}
+
+/* 4. Ajuste en las alertas para que sean más llamativas */
+.alert {
+  font-weight: bold; /* Negrita para resaltar mensajes */
+}

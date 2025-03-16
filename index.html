@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- 1. Esta etiqueta indica el conjunto de caracteres que usará nuestro documento, en este caso UTF-8 -->
+  <meta charset="UTF-8">
+
+  <!-- 2. Esta metaetiqueta hace que la página sea responsive en dispositivos móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 3. Título del documento que aparece en la pestaña del navegador -->
+  <title>Minijuego de Números Aleatorios</title>
+
+  <!-- 4. Enlace a la hoja de estilos de Bootstrap vía CDN -->
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  >
+
+  <!-- 5. Enlace a nuestro archivo de estilos personalizados -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 6. Contenedor principal con clases de Bootstrap para centrar contenido -->
+  <div class="container my-5">
+    <!-- 7. Título principal -->
+    <h1 class="text-center mb-4">Minijuego de Números Aleatorios</h1>
+
+    <!-- 8. Sección donde el usuario introducirá su intento -->
+    <div class="mb-3">
+      <label for="guessInput" class="form-label">Ingresa tu número (1-100):</label>
+      <!-- 9. Campo de texto para capturar la conjetura (guess) del usuario -->
+      <input 
+        type="number" 
+        class="form-control" 
+        id="guessInput" 
+        placeholder="Ej: 50"
+      >
+    </div>
+
+    <!-- 10. Botón para enviar el intento -->
+    <button 
+      id="guessButton" 
+      class="btn btn-primary mb-3">
+      Probar suerte
+    </button>
+
+    <!-- 11. Área para mostrar mensajes sobre el estado del juego -->
+    <div 
+      id="message" 
+      class="alert alert-info" 
+      role="alert"
+      style="display: none;">
+      <!-- Este texto se actualizará dinámicamente desde JavaScript -->
+    </div>
+
+    <!-- 12. Botón para reiniciar el juego (se mostrará dinámicamente) -->
+    <button 
+      id="resetButton" 
+      class="btn btn-secondary"
+      style="display: none;">
+      Reiniciar juego
+    </button>
+
+    <!-- 13. Sección para mostrar un historial de intentos (utilizaremos un array en JS) -->
+    <hr>
+    <h4>Historial de Intentos:</h4>
+    <ul id="guessHistory" class="list-group"></ul>
+  </div>
+
+  <!-- 14. Enlace a la librería JS de Bootstrap (opcional, pero recomendado para algunas funcionalidades) -->
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+  <!-- 15. Enlace a nuestro archivo JavaScript personalizado -->
+  <script src="script.js"></script>
+</body>
+</html>
